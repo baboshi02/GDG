@@ -2,4 +2,5 @@ const Admin = () => {
   return <div>admin</div>;
 };
 
-export default admin;
+export default Admin;
+
