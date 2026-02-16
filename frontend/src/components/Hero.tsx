@@ -2,7 +2,7 @@ import HeroText from "./HeroText";
 
 const Hero = () => {
   return (
-    <header className=" z-0 relative h-screen w-full overflow-hidden flex items-center justify-center text-center">
+    <header className="relative h-screen w-full overflow-hidden flex items-center justify-center text-center">
       <div
         className="absolute inset-0 bg-cover bg-center"
         style={{
