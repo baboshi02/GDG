@@ -58,8 +58,8 @@ const Courses = () => {
         <div className="flex min-h-screen flex-col gap-3 items-center justify-center font-poppins">
             <Header />
             <div className="w-full gap-3">
-                <h2 className="text-3xl text-center m-10 text-blue-500 font-bold">Over the 2 Chapters, those are the ones who dedicated time and effort.</h2>
-                <h3 className="text-2xl text-center m-10 text-blue-500 font-bold">Meet The Team</h3>
+                <h2 className="text-3xl text-center m-10 text-blue-500 font-bold">Over the 2 Chapters, those are the courses we dedicated our time and effort.</h2>
+                <h3 className="text-2xl text-center m-10 text-blue-500 font-bold">Courses</h3>
                 <RenderCourses courses={testingCoursesData} />
                 <Footer />
             </div>
