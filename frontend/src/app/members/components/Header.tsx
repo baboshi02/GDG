@@ -1,12 +1,11 @@
+import coverImg from "../../../../assets/cover.jpg";
+
 const Header = () => {
   return (
     <header className="relative h-screen w-full overflow-hidden flex items-center justify-center text-center">
       <div
         className="absolute inset-0 bg-cover bg-center"
-        style={{
-          backgroundImage:
-            "url('https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?auto=format&fit=crop&q=80')",
-        }}
+        style={{ backgroundImage: `url(${coverImg.src})` }}
       >
         <div className="absolute inset-0 bg-black/50" />
       </div>
