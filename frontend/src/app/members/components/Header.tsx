@@ -14,7 +14,7 @@ const Header = () => {
         <p className="m-10 z-10 px-4 font-mono text-white text-2xl">
           "These
           <span className="text-red-500"> individuals </span>
-          are the backbone of GDSC, and their hard work and dedication are essential to our
+          are the backbone of GDG, and their hard work and dedication are essential to our
           <span className="text-green-500"> success</span>."
         </p>
       </div>
