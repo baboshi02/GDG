@@ -2,7 +2,7 @@
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { useEffect, useState } from "react";
-import GDGLogo from "@/../assets/GDGLogo.png";
+import GDGLogoSvg from "@/../assets/GDG-logo.svg";
 import Image from "next/image";
 
 interface IPage {
@@ -44,12 +44,12 @@ const NavBar = () => {
   return (
     <nav
       className={`fixed top-0 left-0 right-0 z-20 flex items-center justify-between px-6 py-3 transition-all duration-300 ${
-        isVisible ? "bg-transparent" : "bg-white/90 backdrop-blur-md shadow-md"
+        isVisible ? "bg-transparent" : "bg-black/60 backdrop-blur-md shadow-md"
       }`}
     >
       <Link href="/" className="relative w-56 h-12">
         <Image
-          src={GDGLogo}
+          src={GDGLogoSvg}
           alt="GDG Logo"
           fill
           className="object-contain object-left"
@@ -64,8 +64,8 @@ const NavBar = () => {
             href={page.url}
             className={`transition-colors duration-200 ${
               pathname === page.url
-                ? isVisible ? "text-white font-semibold" : "text-black font-semibold"
-                : isVisible ? "text-gray-200 hover:text-blue-400" : "text-gray-700 hover:text-blue-600"
+                ? isVisible ? "text-blue-500 font-semibold" : "text-blue-500 font-semibold"
+                : isVisible ? "text-gray-100 hover:text-blue-400" : "text-gray-100 hover:text-blue-600"
             }`}
           >
             {page.name}
